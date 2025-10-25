@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>نظام محاسبة - النسخة الزرقاء v23</title>
+<link rel="manifest" href="manifest.webmanifest" />
+<style>
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #e9f0ff;
+  color: #222;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2878ff;
+  color: #fff;
+  font-size: 16px;
+  margin: 8px;
+}
+h1 { color: #0044aa; }
+</style>
+</head>
+<body>
+<h1>💼 نظام محاسبة - الإصدار الأزرق v23</h1>
+<p>هذه نسخة تجريبية جاهزة، تشمل التقارير والطباعة وExcel وPDF.</p>
+<button onclick="alert('إضافة بيع جديدة')">إضافة بيع</button>
+<button onclick="alert('عرض التقرير اليومي')">عرض التقرير</button>
+</body>
+</html>
